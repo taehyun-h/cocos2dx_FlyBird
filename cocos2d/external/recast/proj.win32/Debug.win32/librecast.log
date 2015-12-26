@@ -1,0 +1,47 @@
+﻿빌드 시작: 2015-12-24 오후 3:37:14
+     1>5 노드의 "G:\Study\cocos_projects\FlyBird\cocos2d\external\recast\proj.win32\librecast.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../ /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DebugUtils\DebugDraw.cpp ..\DebugUtils\DetourDebugDraw.cpp ..\DetourCrowd\DetourCrowd.cpp ..\DetourCrowd\DetourLocalBoundary.cpp ..\DetourCrowd\DetourObstacleAvoidance.cpp ..\DetourCrowd\DetourPathCorridor.cpp ..\DetourCrowd\DetourPathQueue.cpp ..\DetourCrowd\DetourProximityGrid.cpp ..\DetourTileCache\DetourTileCache.cpp ..\DetourTileCache\DetourTileCacheBuilder.cpp ..\Detour\DetourAlloc.cpp ..\Detour\DetourCommon.cpp ..\Detour\DetourNavMesh.cpp ..\Detour\DetourNavMeshBuilder.cpp ..\Detour\DetourNavMeshQuery.cpp ..\Detour\DetourNode.cpp
+         DebugDraw.cpp
+         DetourDebugDraw.cpp
+         DetourLocalBoundary.cpp
+         DetourCrowd.cpp
+         DetourObstacleAvoidance.cpp
+         DetourPathCorridor.cpp
+         DetourPathQueue.cpp
+     1>..\DetourCrowd\DetourObstacleAvoidance.cpp(334): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         DetourProximityGrid.cpp
+         DetourTileCache.cpp
+         DetourTileCacheBuilder.cpp
+         DetourAlloc.cpp
+         DetourCommon.cpp
+         DetourNavMesh.cpp
+         DetourNavMeshBuilder.cpp
+         DetourNavMeshQuery.cpp
+         DetourNode.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../ /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\fastlz\fastlz.c
+         fastlz.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\Study\cocos_projects\FlyBird\proj.win32\Debug.win32\librecast.lib" /NOLOGO Debug.win32\DebugDraw.obj
+         Debug.win32\DetourDebugDraw.obj
+         Debug.win32\DetourCrowd.obj
+         Debug.win32\DetourLocalBoundary.obj
+         Debug.win32\DetourObstacleAvoidance.obj
+         Debug.win32\DetourPathCorridor.obj
+         Debug.win32\DetourPathQueue.obj
+         Debug.win32\DetourProximityGrid.obj
+         Debug.win32\DetourTileCache.obj
+         Debug.win32\DetourTileCacheBuilder.obj
+         Debug.win32\DetourAlloc.obj
+         Debug.win32\DetourCommon.obj
+         Debug.win32\DetourNavMesh.obj
+         Debug.win32\DetourNavMeshBuilder.obj
+         Debug.win32\DetourNavMeshQuery.obj
+         Debug.win32\DetourNode.obj
+         Debug.win32\fastlz.obj
+         librecast.vcxproj -> G:\Study\cocos_projects\FlyBird\proj.win32\Debug.win32\librecast.lib
+     1>"G:\Study\cocos_projects\FlyBird\cocos2d\external\recast\proj.win32\librecast.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.43
